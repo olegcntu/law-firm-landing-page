@@ -29,6 +29,14 @@ body{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_services{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header_top{
@@ -111,7 +119,7 @@ body{
 }
 
 .slider{
-    background-image: url("../img/photo_2022-07-27_23-09-19.jpg");
+    background-image: url("../img/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -210,23 +218,23 @@ right: 0;
 .slick-prev{
 left:0
 }
-.about{
+.services{
     padding: 50px 0px 30px;
 }
 
-.about_top{
+.services_top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-.about_title-box{
+.services_title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.about_title-box:before{
+.services_title-box:before{
     content: "";
     position: absolute;
     width: 100px;
@@ -236,7 +244,7 @@ left:0
     top: 11px;
 }
 
-.about_title{
+.services_title{
     font-size: 24px;
     font-weight: 800;
     line-height: 24px;
@@ -245,11 +253,11 @@ left:0
     margin-bottom: 10px;
 }
 
-.about_text{
+.services_text{
 letter-spacing: 0.1px;
 }
 
-.about_btn{
+.services_btn{
     color: #373636;
     line-height: 24px;
     letter-spacing: 0.25px;
@@ -257,26 +265,54 @@ letter-spacing: 0.1px;
     border: 3px solid #e6e6e6
 }
 
-.about_items{
+.services_items{
     display: flex;
     justify-content: space-between;
 }
 
-.about_item{
+.services_item{
     max-width: 360px;
     text-align: center;
-    padding: 30px 0px 40px;
+    padding: 30px 0px 80px;
+    position: relative;
+    min-height: 375px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 24.3px rgba(91,89,89,0.14);
 }
 
-.about_item-text{
-
+.services_item-text{
+    letter-spacing: 0.1px;
+    padding: 0px 30px 30px;
 }
 
-.about_item-title{
+.services_item-title{
     color: #212020;
     font-size: 18px;
     line-height: 24px;
     font-weight: 800;
     font-family: Roboto, sans-serif;
+    padding: 24px 0;
+}
 
+.services_item-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+}
+
+.services_item-btn .default-btn{
+    color: #373636;
+}
+
+.services_item-btn .default-btn:after{
+    color: #fff;
+}
+
+.services_item-link{
+    color: #050505;
+    font-family: Roboto, sans-serif;
+    font-weight: 800;
+    border-bottom: 1px solid #050505;
+    margin-right: 60px;
 }
