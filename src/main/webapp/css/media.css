@@ -1,3 +1,12 @@
-@media (max-width: 968px){
+@media  (max-width: 700px){
+    .container{
+        width: 100%;
+       display: block;
+    }
+
+    .header_btn{
+        width: 100%;
+    }
 
 }
+
