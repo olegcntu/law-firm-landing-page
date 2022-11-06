@@ -26,14 +26,20 @@ body {
     color: #5e5e5e;
 }
 
-.container {
+.container_top {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+    justify-content: space-between;
+}
+.container_content {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
 }
-
 .container_services,
 .container_form,
 .container_news,

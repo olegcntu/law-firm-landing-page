@@ -1,11 +1,38 @@
-@media  (max-width: 700px){
-    .container{
+@media (max-width: 900px) {
+
+    .header_btn {
+        float: none;
         width: 100%;
-       display: block;
     }
 
-    .header_btn{
-        width: 100%;
+    .news_inner {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .form_inner {
+        background-image: none;
+        display: block;
+    }
+
+    .advantages_inner {
+        display: block;
+    }
+
+    .services_items {
+        display: block;
+    }
+
+    .container_services {
+        display: block;
+    }
+
+    .container_news {
+        display: block;
+    }
+
+    .footer_inner {
+        display: block;
     }
 
 }
